@@ -43,10 +43,20 @@ The project demonstrates:
    cd BA_XAI
    ```
 2. Install Python Dependencies:
-   ````pip install -r requirements.txt```` 
-3. Install and run Ollama (local LLMs API):
+   ```bash
+   pip install -r requirements.txt
+   ```` 
+4. Install and run Ollama (local LLMs API):
    Download and install Ollama from https://ollama.com
-   Pull the required model: ````ollama pull llama3.2````
-   Start the Ollama in a separate terminal: ````ollama serve````
-4. Run the dashboard:
-   ````python app.py````
+   Pull the required model:
+   ```bash
+    ollama pull llama3.2
+   ```
+   Start the Ollama in a separate terminal:
+   ```bash
+      ollama serve
+   ```
+6. Run the dashboard:
+   ```bash
+   python app.py
+   ```
