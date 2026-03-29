@@ -1,0 +1,9 @@
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+plotly==5.22.0
+dash==2.17.0
+explainerdashboard==0.4.2
+requests==2.32.3
+werkzeug==3.0.3
+flask==3.0.3
